@@ -21,6 +21,6 @@ additional_languages:
 # android_sdk_platform: android-28
 # android_sdk_platform: android-29
 # android_sdk_platform: android-30
-# android_sdk_platform: android-31
+android_sdk_platform: android-31
 # android_sdk_platform: android-32
 # android_sdk_platform: android-33

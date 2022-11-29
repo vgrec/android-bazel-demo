@@ -30,6 +30,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.android.common.media.CameraHelper;
+import com.example.android.mediarecorder.main.R;
 
 import java.io.File;
 import java.io.IOException;

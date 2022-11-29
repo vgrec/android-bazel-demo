@@ -25,6 +25,7 @@
         android:name=".internal.InternalApplication"
         android:allowBackup="true"
         android:fullBackupContent="true"
-        tools:ignore="GoogleAppIndexingWarning" />
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:name" />
 
 </manifest>

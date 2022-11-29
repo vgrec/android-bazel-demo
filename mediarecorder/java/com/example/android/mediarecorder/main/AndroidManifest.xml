@@ -22,7 +22,7 @@
     android:versionName="1.0">
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="1"
         android:targetSdkVersion="27" />
 
     <!-- This app records A/V content from camera and stores it to disk -->
@@ -40,7 +40,8 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:name">
         <!-- Since this sample records video from camera preview, locking the orientation to
             landscape. Landscape mode offers us more preview space with standard video aspect
             ratios (width > height) -->

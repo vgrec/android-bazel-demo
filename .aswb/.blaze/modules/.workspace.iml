@@ -28,7 +28,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="java_compiler_4896bf3a" level="project" />
     <orderEntry type="library" name="jdk_compiler_4896bf3a" level="project" />
+    <orderEntry type="module" module-name="mediarecorder.java.com.example.android.mediarecorder.debug.debug_application" exported="" />
     <orderEntry type="module" module-name="mediarecorder.java.com.example.android.mediarecorder.main.main" exported="" />
-    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>

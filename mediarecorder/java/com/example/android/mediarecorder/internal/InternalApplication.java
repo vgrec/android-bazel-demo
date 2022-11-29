@@ -1,9 +1,9 @@
-package com.example.android.mediarecorder.debug;
+package com.example.android.mediarecorder.internal;
 
 import android.app.Application;
 import android.util.Log;
 
-public class DebugApplication extends Application {
+public class InternalApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();

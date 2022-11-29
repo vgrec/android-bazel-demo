@@ -17,14 +17,9 @@ android_library(
     srcs = [
         "MainActivity.java",
     ],
+    visibility = ["//visibility:public"],
     deps = [
+        ":main_application",
         "//mediarecorder/java/com/example/android/common/media",
-        ":main_application"
     ],
-)
-
-android_binary(
-    name = "mediarecorder",
-    manifest = "AndroidManifest.xml",
-    deps = [":main_lib"],
 )

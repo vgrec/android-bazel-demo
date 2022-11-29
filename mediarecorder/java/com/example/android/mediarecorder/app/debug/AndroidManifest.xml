@@ -22,7 +22,7 @@
     android:versionName="1.0">
 
     <application
-        android:name=".internal.InternalApplication"
+        android:name=".app.debug.DebugApplication"
         android:allowBackup="true"
         android:fullBackupContent="true"
         tools:ignore="GoogleAppIndexingWarning"

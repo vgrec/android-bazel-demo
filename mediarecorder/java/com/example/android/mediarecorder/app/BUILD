@@ -7,6 +7,6 @@ android_binary(
     multidex = "native",
     resource_files = glob(["debug/res/**"]),
     deps = [
-        "//mediarecorder/java/com/example/android/mediarecorder/internal",
+        "//mediarecorder/java/com/example/android/mediarecorder/main:main_lib",
     ],
 )

@@ -34,7 +34,7 @@
     <uses-feature android:name="android.hardware.camera" />
 
     <application
-        android:name=".MainApplication"
+        android:name=".debug.DebugApplication"
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:icon="@drawable/ic_launcher"

@@ -15,7 +15,8 @@
   <component name="NewModuleRootManager">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../..">
-      <sourceFolder url="file://$MODULE_DIR$/../../.." isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../mediarecorder/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../mediarecorder/java/com/example/android/mediarecorder/main" isTestSource="false" packagePrefix="com.example.android.mediarecorder" />
       <excludeFolder url="file://$MODULE_DIR$/../../../bazel-bin" />
       <excludeFolder url="file://$MODULE_DIR$/../../../bazel-genfiles" />
       <excludeFolder url="file://$MODULE_DIR$/../../../bazel-out" />
@@ -25,5 +26,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="java_compiler_4896bf3a" level="project" />
+    <orderEntry type="library" name="jdk_compiler_4896bf3a" level="project" />
+    <orderEntry type="module" module-name="mediarecorder.java.com.example.android.mediarecorder.main.main" exported="" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>
